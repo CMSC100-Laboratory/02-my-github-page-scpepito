@@ -39,6 +39,7 @@ header {
 header h1 {
     text-align: left ;
     margin: 0;
+    letter-spacing: 2px;
     font-family: "Shrikhand-Regular", Arial, sans-serif;
     text-shadow: -2px -2px 0 #45462a, 2px -2px 0 #45462a, -2px 2px 0 #45462a, 2px 2px 0 #45462a;
 }
@@ -63,7 +64,7 @@ nav ul li {
 nav ul li a {
     color: #efdcac;
     text-decoration: none;
-    letter-spacing: 5;
+    letter-spacing: 2px;
     font-family: "Shrikhand-Regular", Arial, sans-serif; 
     text-shadow: -1px -1px 0 #45462a, 1px -1px 0 #45462a, -1px 1px 0 #45462a, 1px 1px 0 #45462a;
 }
@@ -95,13 +96,14 @@ nav ul li a {
 
 .background-image {
     width: 100%; 
+    padding: 20px;
     height: auto;
     display: block;
 }
 
 .text-overlay {
     position: absolute;
-    top: 27%;
+    top: 18%;
     left: 0;
     width: 100%;
     height: auto; 
@@ -136,6 +138,42 @@ nav ul li a {
 
 .container {
     width: 100%;
+}
+
+h2 {
+    font-family: "Shrikhand-Regular", Arial, sans-serif; 
+    color: #c4661f;
+    letter-spacing: 2px;
+    font-size:50px;
+}
+
+.logo1-content, .logo2-content {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.logo1-image, .logo2-image {
+    width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.logo1-text, .logo2-text {
+    color: #45462a;
+    line-height: 0.9;
+    font-family: "AlteHaasGroteskBold", Arial, sans-serif; 
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 .project {
