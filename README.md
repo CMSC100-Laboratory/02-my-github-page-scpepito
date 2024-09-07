@@ -23,11 +23,11 @@ Ensure your repository is set to Public to make your GitHub Pages visible on the
 Go to the repository’s Settings > General, and adjust the visibility if necessary.<br/>
 
 ## Key Takeaways
-1. **Flexbox Layout ** <br/>
+1. **Flexbox Layout** <br/>
 Flexbox is great for aligning images and text side by side, keeping the layout responsive and clean.<br/>
 2. **Typography and Spacing:** <br/>
 Custom fonts, letter-spacing, and line-height enhance readability and design.<br/>
 3. **Layering with Positioning:**<br/>
 Using position: absolute and z-index helps in placing elements on top of each other effectively.<br/>
-4. **Clarity in Instructions: **<br/>
+4. **Clarity in Instructions:**<br/>
  Clear communication between requirements and implementation was key, ensuring that design expectations were met efficiently.<br/>
