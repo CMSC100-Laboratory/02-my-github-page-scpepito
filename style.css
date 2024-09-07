@@ -17,18 +17,28 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'AlteHaasGroteskBold';
+    src: url("AlteHaasGroteskBold.ttf") format("truetype");
+    font-style: normal;
+}
+
+.id-card {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
 header {
     background: #c4661f;
     color: #efdcac;
-    letter-spacing: 7;
-    padding: 5 0;
+    padding: 20px;
     position: relative;
 }
 
 header h1 {
-    text-align: center;
+    text-align: left ;
     margin: 0;
-    letter-spacing: 15;
     font-family: "Shrikhand-Regular", Arial, sans-serif;
     text-shadow: -2px -2px 0 #45462a, 2px -2px 0 #45462a, -2px 2px 0 #45462a, 2px 2px 0 #45462a;
 }
@@ -51,22 +61,90 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #efdcac ;
+    color: #efdcac;
     text-decoration: none;
     letter-spacing: 5;
     font-family: "Shrikhand-Regular", Arial, sans-serif; 
     text-shadow: -1px -1px 0 #45462a, 1px -1px 0 #45462a, -1px 1px 0 #45462a, 1px 1px 0 #45462a;
 }
 
-.id-card {
+.main-container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+
+.left-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #d4a373; 
+    border-right: 2px solid #c4661f;
+}
+
+.image-row {
+    flex: 1;
+    padding: 0%;
+}
+
+.about-row {
+    flex: 1;
+    position: relative; 
+}
+
+.background-image {
+    width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.text-overlay {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    width: 600px;
-    height: 400px;
-    z-index: 10;
+    top: 27%;
+    left: 0;
+    width: 100%;
+    height: auto; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: #45462a;
+    text-align: justify; 
+    padding: 120px; 
+    box-sizing: border-box;
+    line-height: 0.9; 
+    font-family: "AlteHaasGroteskBold", Arial, sans-serif; 
+    font-size: large;
+}
+
+.text-overlay p {
+    margin: 0;
+    text-align: justify; 
+}
+    
+
+.right-section {
+    flex: 3;
+    padding: 20px;
+    background-color: #efdcac ;
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.container {
+    width: 100%;
 }
 
 .project {
     margin: 20px 0;
+}
+
+footer {
+    background: #c4661f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
 }
