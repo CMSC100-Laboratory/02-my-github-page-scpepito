@@ -147,6 +147,13 @@ h2 {
     font-size:50px;
 }
 
+h3 {
+    font-family: "AlteHaasGroteskBold", Arial, sans-serif; 
+    color: #45462a;
+    letter-spacing: 2px;
+    font-size:20px;
+}
+
 .logo1-content, .logo2-content {
     display: flex;
     align-items: center;
@@ -164,6 +171,12 @@ h2 {
     line-height: 0.9;
     font-family: "AlteHaasGroteskBold", Arial, sans-serif; 
     font-size: large;
+}
+
+.proj1-image, .proj2-image {
+    width: 1000px; 
+    height: auto; 
+    margin-right: 20px; 
 }
 
 ul {
