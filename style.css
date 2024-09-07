@@ -1,9 +1,11 @@
+/* Reset default margin, padding, and box-sizing for all elements */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body style: font, color, background */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -11,6 +13,7 @@ body {
     background-color: #d4a373;
 }
 
+/* Custom font definitions */
 @font-face {
     font-family: 'Shrikhand-Regular';
     src: url("fonts/Shrikhand-Regular.ttf") format("truetype");
@@ -29,12 +32,14 @@ body {
     font-style: normal;
 }
 
+/* Style for images (ID card) */
 .id-card {
     width: 100%; 
     height: auto;
     display: block;
 }
 
+/* Header styles: background, color, padding */
 header {
     background: #c4661f;
     color: #efdcac;
@@ -42,6 +47,7 @@ header {
     position: relative;
 }
 
+/* Portfolio title (h1) style */
 header h1 {
     text-align: left ;
     margin: 0;
@@ -50,6 +56,7 @@ header h1 {
     text-shadow: -2px -2px 0 #45462a, 2px -2px 0 #45462a, -2px 2px 0 #45462a, 2px 2px 0 #45462a;
 }
 
+/* Navigation positioning and list style */
 nav {
     position: absolute;
     right: 0;
@@ -57,6 +64,7 @@ nav {
     transform: translateY(-50%);
 }
 
+/* Navigation links */
 nav ul {
     display: flex;
     justify-content: flex-end;
@@ -75,6 +83,7 @@ nav ul li a {
     text-shadow: -1px -1px 0 #45462a, 1px -1px 0 #45462a, -1px 1px 0 #45462a, 1px 1px 0 #45462a;
 }
 
+/* Main container flexbox layout */
 .main-container {
     display: flex;
     width: 100%;
@@ -82,6 +91,7 @@ nav ul li a {
     padding: 5px 0;
 }
 
+/* Left section (About) styling */
 .left-section {
     flex: 2;
     display: flex;
@@ -120,6 +130,7 @@ nav ul li a {
     display: block;
 }
 
+/* Text overlay inside about section */
 .text-overlay {
     position: absolute;
     top: 25%;
@@ -132,7 +143,7 @@ nav ul li a {
     align-items: center;
     color: #45462a;
     text-align: justify; 
-    padding: 120px; 
+    padding: 100px; 
     box-sizing: border-box;
     line-height: 0.9; 
     font-family: "AlteHaasGroteskBold", Arial, sans-serif; 
@@ -144,7 +155,7 @@ nav ul li a {
     text-align: justify; 
 }
     
-
+/* Right section (Skills and Projects) */
 .right-section {
     flex: 3;
     padding: 20px;
@@ -159,6 +170,7 @@ nav ul li a {
     width: 100%;
 }
 
+/* Section titles (h2) */
 h2 {
     font-family: "Shrikhand-Regular", Arial, sans-serif; 
     color: #c4661f;
@@ -166,7 +178,7 @@ h2 {
     font-size:50px;
 }
 
-h2 {
+h4 {
     font-family: "Shrikhand-Regular", Arial, sans-serif; 
     color: #c4661f;
     padding-left: 20px;
@@ -181,6 +193,7 @@ h3 {
     font-size:20px;
 }
 
+/* Skills */
 .logo1-content, .logo2-content {
     display: flex;
     align-items: center;
@@ -200,6 +213,11 @@ h3 {
     font-size: large;
 }
 
+/* Project */
+.project {
+    margin: 20px 0;
+}
+
 .proj1-image, .proj2-image {
     width: 1000px; 
     height: auto; 
@@ -213,10 +231,7 @@ h3 {
     font-size: large;
 }
 
-.project {
-    margin: 20px 0;
-}
-
+/* Footer styles */
 footer {
     background: #c4661f;
     color: #efdcac;
