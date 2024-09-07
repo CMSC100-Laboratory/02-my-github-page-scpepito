@@ -23,6 +23,12 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'AlteHaasGrotesRegular';
+    src: url("fonts/AlteHaasGroteskRegular.ttf") format("truetype");
+    font-style: normal;
+}
+
 .id-card {
     width: 100%; 
     height: auto;
@@ -89,12 +95,25 @@ nav ul li a {
     padding: 0%;
 }
 
-.about-row {
-    flex: 1;
-    position: relative; 
+.contact-row {
+    flex: 3;
 }
 
-.background-image {
+.contacts-text {
+    color: #45462a;
+    line-height: 0.9;
+    padding-left: 20px;
+    font-family: "AlteHaasGroteskBold", Arial, sans-serif; 
+    font-size: large;
+}
+
+.about-row {
+    flex: 1;
+    position:relative; 
+}
+
+
+.about-me {
     width: 100%; 
     padding: 20px;
     height: auto;
@@ -103,7 +122,7 @@ nav ul li a {
 
 .text-overlay {
     position: absolute;
-    top: 18%;
+    top: 25%;
     left: 0;
     width: 100%;
     height: auto; 
@@ -147,6 +166,14 @@ h2 {
     font-size:50px;
 }
 
+h2 {
+    font-family: "Shrikhand-Regular", Arial, sans-serif; 
+    color: #c4661f;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-size:50px;
+}
+
 h3 {
     font-family: "AlteHaasGroteskBold", Arial, sans-serif; 
     color: #45462a;
@@ -179,14 +206,11 @@ h3 {
     margin-right: 20px; 
 }
 
-ul {
-    list-style-type: none;
-    margin: 20px 0;
-}
-
-ul li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
+.proj1-text, .proj2-text {
+    color: #45462a;
+    line-height: 0.9;
+    font-family: "AlteHaasGrotesRegular", Arial, sans-serif; 
+    font-size: large;
 }
 
 .project {
@@ -195,7 +219,17 @@ ul li {
 
 footer {
     background: #c4661f;
-    color: #fff;
+    color: #efdcac;
     text-align: center;
     padding: 10px 0;
 }
+
+footer a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #45462a;
+    color: #efdcac;
+    margin-top: 10px;
+}
+    
