@@ -6,7 +6,7 @@
 **Section:** EF-2L <br/>
 **Student number:** 2022 - 07122 <br/>
 **Degree Program** BS Computer Science <br/>
-**Website link:** [https://github.com/CMSC100-Laboratory/02-my-github-page-scpepito] (https://github.com/CMSC100-Laboratory/02-my-github-page-scpepito)
+**Website link:** [https://github.com/CMSC100-Laboratory/02-my-github-page-scpepito](https://github.com/CMSC100-Laboratory/02-my-github-page-scpepito)
 
 ## Steps to Create a GitHub Page
 1. **Create a Repository** <br/>
